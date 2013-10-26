@@ -1,0 +1,12 @@
+clearcaseserver:
+        hostname: tmv716.devlab.de.tmo
+        user: ecare
+        bin_home: git_sync/scripts2/bin
+        storage: git_sync/storage
+        cleartool: /usr/atria/bin/cleartool
+        configspec_folder: /vobs/wfa_source/eca_apps/configSpecs
+        vob: /vobs/wfa_source/eca_apps
+gitserver:
+        hostname:  10.233.53.30
+        user: git
+        remote_synchome: clearcase_export

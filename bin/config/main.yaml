@@ -1,0 +1,25 @@
+--- 
+application: 
+  temp_folder: tmp_output
+  storage: ../storage/master/clearcase_output
+  polling_time: 300
+  filter: eca_apps/java|eca_apps/db
+  pathcut: wfa_source/eca_apps/db
+  pathappend: src/main/sql/ksa
+clearcase: 
+  view: ecare_ecare_git_main_ux
+  output: clearcase_output
+  branch: main
+  configspec: develop_ecare_14.1.0_ux.txt
+  modified_map: maps/clearcase_export.map
+git: 
+  output_folder: extracted
+  branch: master
+  bare_repo: ../../repositories/ecare_dev.git
+  modified_files_map: maps/modified.map
+  tag: master_269
+  repo_name: ecare_dev.git
+  stable_repo: ../../repositories/ecare_stable.git
+  deleted_files_map: maps/deleted.map
+  stable_repo_name: ecare_stable.git
+  added_files_map: maps/added.map

@@ -1,0 +1,22 @@
+--- 
+application: 
+  temp_folder: tmp_output_13.3.1
+  storage: ../storage/dev-ecare-13.3.1/clearcase_output
+  polling_time: 200
+clearcase: 
+  view: ecare_ecare_git_13.3.1_ux
+  output: clearcase_output
+  branch: dev-ecare-13.3.1
+  configspec: develop_ecare_13.3.1_SP1_ux.txt
+  modified_map: maps/clearcase_export.map
+git: 
+  output_folder: extracted
+  branch: dev-ecare-13.3.1
+  bare_repo: ../../repositories/ecare_dev.git
+  modified_files_map: maps/modified_13.3.1.map
+  tag: dev-ecare-13.3.1_40
+  repo_name: ecare_dev.git
+  stable_repo: ../../repositories/ecare_stable.git
+  deleted_files_map: maps/deleted_13.3.1.map
+  stable_repo_name: ecare_stable.git
+  added_files_map: maps/added_13.3.1.map
